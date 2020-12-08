@@ -1,59 +1,101 @@
-@import url(');
-@import url(');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Neucha&family=Pacifico&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+<style>
 
-:root {
-    font-family: '', ;
-    /* background-color: ; */
+.down-title {
+    font-family: pacific
 }
 
-.logo {
-    font-family: '', ;
-    font-size: ;
-    text-transform: uppercase
-    text-align: center
+.menu {
+    font-family: rubik
+}
+
+.big-title {
+    font-family: neucha
+}
+
+.middle-font {
+    font-family: rubik
+
+}
+.plain-font { 
+    font-family: rubik
+
+}
+
+.giant-font {
+    font-family: lora
+}
+
+
+.up-name {
+
+}
+
+
+.down-name {
+
 }
 
 .banner {
-    background-image: url(../img/)
-    background-size: cover;
-    background-position: center
-    min-height: 400px
-}
+    
 
-.menu a {
-    display: block
-    text-decoration: none
-    text-transform: uppercase
-    color: #2260a8
-    width: 100px
-    border: 1px solid transparent
-}
-
-.selected {
-    font-weight: bold
-}
-
-.menu a:hover 
-    /* border-color: blue; */
-    font-weight: bold
 }
 
 h1 {
-    color: red
+    font-family: 
+    color: 
 }
 
+h2 {
+    font-family: rubik
+    color: 
+}
+
+h3 {
+    font-family: rubik
+    color: 
+}
+.article-img {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.icon {
+    max-width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.carousel img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
 .product-card img {
-    max-width: 200px;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.galery img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.review img {
+    max-width: 400px;
     display: block;
     margin: auto;
 
-
-.product-card h3 {
-    text-align: center
+}
+.tough img {
+    max-width: 300px;
+    display: block;
+    margin: auto;
 }
 
-.product-card {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 5px;
 
+
+    </style>
