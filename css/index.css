@@ -1,0 +1,59 @@
+@import url(');
+@import url(');
+
+:root {
+    font-family: '', ;
+    /* background-color: ; */
+}
+
+.logo {
+    font-family: '', ;
+    font-size: ;
+    text-transform: uppercase
+    text-align: center
+}
+
+.banner {
+    background-image: url(../img/)
+    background-size: cover;
+    background-position: center
+    min-height: 400px
+}
+
+.menu a {
+    display: block
+    text-decoration: none
+    text-transform: uppercase
+    color: #2260a8
+    width: 100px
+    border: 1px solid transparent
+}
+
+.selected {
+    font-weight: bold
+}
+
+.menu a:hover 
+    /* border-color: blue; */
+    font-weight: bold
+}
+
+h1 {
+    color: red
+}
+
+.product-card img {
+    max-width: 200px;
+    display: block;
+    margin: auto;
+
+
+.product-card h3 {
+    text-align: center
+}
+
+.product-card {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+
