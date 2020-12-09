@@ -1,138 +1,167 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Neucha&family=Pacifico&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-font-family: 'Lora', serif;
-font-family: 'Pacifico', cursive;
-font-family: 'Rubik', sans-serif;
-font-family: 'Neucha', cursive;
+	font-family: 'Lora', serif, 'Rubik', sans-serif, 'Neucha', cursive, 'Pacifico', cursive;
 }
 
 .down-title {
-    font-family: 'Pacifico';
-    font-size: 25px;
+	font-family: 'Pacifico';
+	font-size: 25px;
 }
 
 .menu {
-    font-family: 'Rubik';
-    font-size: 18px;
+	font-family: 'Rubik';
+	font-size: 18px;
+}
+
+.banner-img {
+    position: relative;
+    width: 100%;
+}
+
+.banner-text {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%;
+    }
+.banner span {
+    color: #fff;
+    font-size: 30px;
+    line-height: 55px;
+    background: rgba(0, 0, 0, 0.7);
+    background: #000;
+    padding: 10px;
+    }
+.story {
+	display: flex;
+}
+
+.article-img {
+	max-width: 500px;
+	display: block;
+	margin: auto;
 }
 
 .big-title {
-    font-family: 'Neucha';
-    font-size: 25px;
+	font-family: 'Neucha';
+	font-size: 25px;
 }
+
 .big-title-second {
-    font-family: 'Neucha';
-    font-size: 18px;
+	font-family: 'Neucha';
+	font-size: 18px;
 }
+
 .big-title-third {
-    font-family: 'Neucha';
-    font-size: 16px;
+	font-family: 'Neucha';
+	font-size: 16px;
 }
 
 .middle-font {
-    font-family: 'Rubik';
-    font-size: 16px;
+	font-family: 'Rubik';
+	font-size: 16px;
 }
-.plain-font { 
-    font-family: 'Rubik';
-    font-size: 14px;
 
+.plain-font {
+	font-family: 'Rubik';
+	font-size: 14px;
 }
 
 .giant-font {
-    font-family: 'Lora';
-    font-size: 70px;    
+	font-family: 'Lora';
+	font-size: 70px;
 }
 
+.second-banner {
+	background-image: url(..img/crusty.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+}
 
 .banner-up {
-    font-family: 'Lora';
-    font-size: 20px;
+	font-family: 'Lora';
+	font-size: 20px;
 }
 
 .banner-down {
-    font-family: 'Lora';
-    font-size: 70px;
+	font-family: 'Lora';
+	font-size: 70px;
 }
 
-
 h1 {
-    font-family: 'Rubik';
-    font-size: 40px;  
-    }
+	font-family: 'Rubik';
+	font-size: 40px;
+}
 
 h2 {
-    font-family: 'Rubik';
-    font-size: 35px;
-    }
+	font-family: 'Rubik';
+	font-size: 35px;
+}
 
 h3 {
-    font-family: 'Rubik';
-    font-size: 25px;
-   }
+	font-family: 'Rubik';
+	font-size: 25px;
+}
 
 #rye {
-    font-family: 'Rubik';
-    font-size: 18px;
-    }
+	font-family: 'Rubik';
+	font-size: 18px;
+}
+
 #wheat {
-    font-family: 'Rubik';
-    font-size: 18px;
-   }
+	font-family: 'Rubik';
+	font-size: 18px;
+}
 
 #yeast {
-    font-family: 'Rubik';
-    font-size: 18px;
-    }
+	font-family: 'Rubik';
+	font-size: 18px;
+}
 
 #sweet {
-    font-family: 'Rubik';
-    font-size: 18px;
-    }
-
-.article-img {
-    max-width: 500px;
-    display: block;
-    margin: 50px;
+	font-family: 'Rubik';
+	font-size: 18px;
 }
 
 .icon {
-    max-width: 150px;
-    display: block;
-    margin: 25px;
+	max-width: 150px;
+	display: block;
+	margin: 25px;
 }
 
 .carousel img {
-    max-width: 350px;
-    display: block;
-    margin: auto;
+	max-width: 350px;
+	display: block;
+	margin: auto;
 }
+
 .product-card img {
-    max-width: 300px;
-    display: block;
-    margin: auto;
+	max-width: 300px;
+	display: block;
+	margin: auto;
+}
+
+.product-card {
+	border: 1px solid black;
+	margin: 10px;
+	padding: 5px;
 }
 
 .galery img {
-    max-width: 400px;
-    display: block;
-    margin: auto;
+	max-width: 400px;
+	display: block;
+	margin: auto;
 }
 
 .review img {
-    max-width: 400px;
-    display: block;
-    margin: auto;
-
+	max-width: 400px;
+	display: block;
+	margin: auto;
 }
 .tough img {
-    max-width: 300px;
-    display: block;
-    margin: auto;
+	max-width: 300px;
+	display: block;
+	margin: auto;
 }
-
-
-
-    
