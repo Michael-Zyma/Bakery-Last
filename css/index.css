@@ -4,33 +4,56 @@
 	font-family: 'Lora', serif, 'Rubik', sans-serif, 'Neucha', cursive, 'Pacifico', cursive;
 }
 
+.top {
+    position: relative;
+    background-color: grey;
+}
+
+.top-phone {
+    position: relative;
+    left: 140px;
+    top: 35px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.top-buttons {
+    position: relative;
+    left: 1000px;
+    bottom: 150px;
+    font-size: 16px;
+    
+}
+
 h1 {
-	font-size: 40px;
-    font-size: 3.5rem;
+	font-size: 3.5rem;
     text-transform: uppercase;
     text-align: center;
 }
 
 h2 {
-	font-family: 'Rubik';
-	font-size: 35px;
+		font-size: 35px;
 }
 
 h3 {
-	font-family: 'Rubik';
-	font-size: 25px;
+		font-size: 25px;
 }
 
 .down-title {
 	font-family: 'Pacifico';
 	font-size: 25px;
-    background: 
-
+    background: yellow;
+    text-align: center;
 }
 
 .menu {
 	font-family: 'Rubik';
 	font-size: 18px;
+}
+
+.menu a:hover {
+    color: black;
 }
 
 .menu a {
@@ -50,21 +73,43 @@ h3 {
     min-height: 500px;
 }
 .banner-text-up {
+    position: relative;
     color: white;
     font-size: 20px;
     font-weight: bold;
-    font-style: italic;    
+    font-style: italic;
+    left: 150px;
+    top: 150px;
+    margin:    
 }
 
 .banner-text-down {
+    position: relative;
     color: white;
-    font-size: 70px;
-    font-weight: bold;    
+    font-size: 100px;
+    font-weight: bold; 
+    left: 150px;
+    top: 70px;
+    
+
 }
 .banner button {
-    
+    position: relative;
+    left: 150px;
+    bottom: 5px; 
+    background-color: grey;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rubik';
+    font-weight: bold;
 }
 
+.banner button:hover {
+    background-color: #FF8900;
+}
+
+
+/*
 .second-banner {
 	background-image: url(..img/crusty.jpg);
     background-size: cover;
@@ -75,6 +120,7 @@ h3 {
 	font-family: 'Lora';
 	font-size: 20px;
 }
+*/
 
 
 .story {
@@ -85,6 +131,7 @@ h3 {
 	max-width: 500px;
 	display: block;
 	margin: auto;
+    float:
 }
 
 .big-title {
