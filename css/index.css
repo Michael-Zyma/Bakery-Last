@@ -108,8 +108,7 @@ h3 {
     font-weight: bold;
     font-style: italic;
     left: 150px;
-    top: 150px;
-    margin:    
+    top: 150px;      
 }
 
 .banner-text-down {
@@ -155,19 +154,26 @@ h3 {
 
 
 .story {
+    display: flex;
 	width: 100%; 
   margin: 50px 0;
+  justify-content: space-between;
 }
 
 .article-img {
-    display: block;
-	max-width: 600px;    
+    display: flex;
+  
+  flex-direction: row-reverse;
+    max-width: 600px; 
+    min-height: 600px   
 	margin: 40px 10px 40px 10px;
     color: rgb(246,240,233);    
 }
 
 #about {
-    display: flex; 
+    display: flex;
+  justify-content: space-between;  
+  text-align: left; 
     margin: 40px 10px 40px 10px;   
     flex-direction: column;    
     font-family: 'Neucha';
