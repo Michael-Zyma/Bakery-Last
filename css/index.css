@@ -17,7 +17,7 @@ h4 {
 }
 
 :root {
-	font-family: 'Lora', serif, 'Rubik', sans-serif, 'Neucha', cursive, 'Pacifico', cursive;
+	font-family: 'Neucha', cursive,'Lora', serif, 'Rubik', sans-serif, 'Pacifico', cursive;
 	--text-color: rgb(197, 175, 147);
 	--link-color: blue;
 	--button-color: rgb(48, 48, 48);
@@ -27,6 +27,7 @@ h4 {
 }
 
 body {
+    max-width: 1100px;
 	margin: auto;
 }
 
@@ -152,9 +153,9 @@ body {
 	.banner button:hover {
 		background-color: #FF8900;
 	}
-	/*
+	
 .second-banner {
-	background-image: url(..img/crusty.jpg);
+	background-image: url(../img/crusty.jpg);
     background-size: cover;
     background-position: center;
     min-height: 500px;
@@ -207,7 +208,7 @@ body {
 		font-weight: 200;		
 		line-height: 27px;		
 	}
-	/*
+	
 .icon {
 	max-width: 150px;
 	display: block;
