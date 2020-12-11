@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Neucha&family=Pacifico&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body,
-header,
-nav,
-div,
-section,
-main,
-footer,
-img,
-p,
-h1,
-h2,
-h3,
-h4 {
+body, header, nav, div, section, main, footer, img, p, h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
 }
@@ -21,7 +9,7 @@ h4 {
 :root {
 	font-family: 'Lora', serif, 'Rubik', sans-serif, 'Neucha', cursive, 'Pacifico', cursive;    
     --text-color: black;
-    --link-color: ;
+    --link-color: blue;
     --button-color: rgb(197,175,147);
     font-size: 1.1rem;
     line-height: 1.5;
@@ -167,9 +155,8 @@ h3 {
 
 
 .story {
-	display: flex;
-    justify-content: space-around;
-
+	width: 100%; 
+  margin: 50px 0;
 }
 
 .article-img {
