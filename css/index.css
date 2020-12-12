@@ -52,64 +52,94 @@ body {
 	font-size: 16px;
 }
 
-@media (min-width: 650px) {
-	.top {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-	}
-	h1 {
-		display: flex;
-	}
-	.top-buttons {
-		justify-content: space-around;
-	}
-	h1 {
+h1 {
 		font-size: 3.5rem;
 		text-transform: uppercase;
 		text-align: center;
-	}
-	h2 {
+    }
+
+                        @media (min-width: 650px) {
+                            .top {
+                                display: flex;
+                                justify-content: space-around;
+                                align-items: center;
+                            }
+                            h1 {
+                                display: flex;
+                            }
+                            .top-buttons {
+                                justify-content: space-around;
+                            }
+                        }   
+    
+	
+
+   
+
+
+    
+    h2 {
 		font-size: 35px;
 	}
 	h3 {
 		font-size: 25px;
-	}
+    }
+    
+
+
+
 	.down-title {
+        display: flex;
+        justify-content: center;
 		font-family: 'Pacifico';
 		font-size: 25px;
 		background: rgb(246, 240, 233);
 		text-align: center;
 		padding: 20px 20px;
 	}
-	@media (min-width: 650px) {
-		.down-title {
-			font-size: 25px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-	}
+                            @media (min-width: 650px) {
+                                .down-title {
+                                    font-size: 25px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            }
+
+
 	.menu {
 		display: flex;
 		align-self: baseline;
 		flex-direction: row;
-		justify-content: center;
+        justify-content: center;
+        padding: 20px;
 	}
 	.menu a:hover {
 		color: rgb(197, 175, 147);
 		text-decoration: underline;
 	}
 	.menu a {
-		display: block;
-		text-decoration: none;
-		text-transform: none;
+        display: flex;
+        
+        text-decoration: none;
+		
 		color: black;
 		font-size: 22px;
 		font-family: 'Rubik';
-		/*color: var(--text-color);*/
-		margin: 10px 20px 40px 20px;
-	}
+        /*color: var(--text-color);*/
+        padding: 0px 20px 10px 20px;
+    }
+        
+                    @media (max-width: 650px) {
+                            .menu {
+                            display: flex;
+                            flex-direction: column;
+                            font-size: 16px;
+                            }
+                        }
+    
+
+
 	.banner {
 		display: flex;
 		justify-content: space-around;
@@ -120,25 +150,30 @@ body {
 		min-height: 400px;
 	}
 	.banner-text-up {
+        display: flex;
 		color: var(--accent-color);
-		position: relative;
+		
 		color: white;
 		font-size: 20px;
 		font-weight: bold;
 		font-style: italic;
-		left: 150px;
+        position: relative;
+        left: 150px;
 		top: 150px;
 	}
 	.banner-text-down {
+        display: flex;
 		color: var(--accent-color);
-		position: relative;
+		
 		color: white;
 		font-size: 100px;
 		font-weight: bold;
-		left: 150px;
+        position: relative;
+        left: 150px;
 		top: 70px;
 	}
 	.banner button {
+        display: flex;
 		position: relative;
 		left: 150px;
 		bottom: 5px;
@@ -148,24 +183,59 @@ body {
 		font-size: 20px;
 		font-family: 'Neucha';
 		font-weight: bold;
-		color: white;
+        color: white;
 	}
 	.banner button:hover {
 		background-color: #FF8900;
-	}
+    }
+    
+                                @media (min-width: 650px) {
+                                .banner {
+                                    display: flex;
+                            flex-direction: column;
+                            
+                                }
+                            }                     
+
+        
+                                                       
+                               
+                                
+                                
+
 	
 .second-banner {
+    display: flex;
+    justify-content: flex-end;
+	flex-direction: column;
 	background-image: url(../img/crusty.jpg);
     background-size: cover;
     background-position: center;
     min-height: 500px;
 }
 .giant {
-	font-family: 'Lora';
-	font-size: 20px;
+    display: flex;
+    font-family: 'Lora';
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: black;
 }
-*/
-	.story {
+                                    @media (min-width: 650px) {
+                                .second-banner {
+                                    display: flex;
+                            flex-direction: column;                           
+                                }
+                                .giant {
+                                    display: flex;
+                                }   
+                            }                  
+
+
+
+
+	.story {        
 		display: flex;
 		width: 100%;
 		margin: 50px 0;
@@ -174,8 +244,8 @@ body {
 	.article-img {
 		display: flex;
 		flex-direction: row-reverse;
-		max-width: 600px;
-		min-height: 600px;
+		max-width: 50%;
+max-height: 50%;
 		margin: 40px 10px 40px 10px;
 		color: rgb(246, 240, 233);
 	}
@@ -207,19 +277,43 @@ body {
 		font-size: 18px;
 		font-weight: 200;		
 		line-height: 27px;		
-	}
-	
-.icon {
+    }
+    
+                                    @media (max-width: 650px) {
+                                        .story {        
+                                        display: flex;
+                                        flex-direction: column;
+                                        }
+                                        .article-img {
+                                        display: flex;
+                                        max-height: 10%;
+                                            }
+                                       
+                                    }
+    
+                                    
+.icon-block {
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.icon-block img {
+    display: flex;    
+    justify-content: center;
 	max-width: 150px;
-	display: block;
 	margin: 25px;
 }
 
 
-.middle-font {
+.icon-block p {
+    display: flex;
 	font-family: 'Rubik';
 	font-size: 16px;
 }
+
+
+
 
 .plain-font {
 	font-family: 'Rubik';
@@ -286,6 +380,5 @@ body {
 .tough img {
 	max-width: 300px;
 	display: block;
-    margin: auto;
-    */
+    margin: auto;    
 }
