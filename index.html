@@ -92,7 +92,52 @@
             <p class="down-heading">попробуй и ты</p>
          </div>
          <br>				
- <!--каруселька-->         
+                        <!--каруселька с бутстрапа 
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <a href="#rye"><img src="img/orangeready.jpg" class="d-block w-100" alt="с апельсиновыми цукатами">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <a href="#wheat"><img src="img/nutsready.jpg" class="d-block w-100" alt="ореховый">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <a href="#yeast"><img src="img/bertineready.jpg" class="d-block w-100" alt="тостовый хлеб Бертине">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <a href="#sweet"><img src="img/profitrolready.jpg" class="d-block w-100" alt="профитроль">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                        </div> -->
  
  <div class="visual-link">            
             <a href="#rye"><img src="img/orangeready.jpg" alt="с апельсиновыми цукатами"></a>
@@ -248,24 +293,25 @@
             </form>
          </div>
          <br> -->				
-         <article class="galery">
+         <article class="galery-block">
+             <div>
             <h2 id="galery">Галерея</h2>
             <br>
             <p class="down-heading">попробуй жизнь на вкус.</p>
-            <br>
-            <p >
+            </div>            
+            <section class="galery-first">
                <img src="img/bagel-ready.jpg" alt="Кольцо с кремом">
                <img src="img/pumpkin-cake.jpg" alt="Тыквенный хлеб">
                <img src="img/profitrol-up.jpg" alt="Профитроль">				
-            </p>
-            <p >
+            </section>
+            <section class="galery-second">
                <img src="img/limon-cake.jpg" alt="лимонный кекс">
                <img src="img/shtolen-cut.jpg" alt="штолен">
                <img src="img/eklair-cut.jpg" alt="эклер в разрезе">				
-            </p> 
+            </section>
          </article>
          <br>
-    <!--    <article>
+    <article>
             <h2 id="review">— Отзывы моих клиентов</h2>
             <br>
             <p class="down-heading">Мне нравится доставлять людям удовольствие!</p>
@@ -281,7 +327,7 @@
             </p>
          </article>
          <br>
-         <div>
+         <!--<div>
             <h2 id="contact">Как связаться</h2>
             <br>
             <p class="middle-font">Если хотите увидеть больше, заходите на мою страницку в Instagram.</p>
