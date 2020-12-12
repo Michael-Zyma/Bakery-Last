@@ -230,35 +230,6 @@ h3 {
                                 
 
 	
-.second-banner {
-    display: flex;
-    justify-content: flex-end;
-	flex-direction: column;
-	background-image: url(../img/crusty.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 500px;
-}
-.giant {
-    display: flex;
-    font-family: 'Lora';
-    font-weight: bold;
-    padding-left: 20px;
-    font-size: 3.5em;
-    text-transform: uppercase;
-    color: black;
-}
-                                    @media (min-width: 650px) {
-                                .second-banner {
-                                    display: flex;
-                            flex-direction: column;                           
-                                }
-                                .giant {
-                                    display: flex;
-                                }   
-                            }                  
-
-
 
 
 	.story {        
@@ -363,8 +334,8 @@ max-height: 50%;
 
 
 
-
 /*
+
 #rye {
 	font-family: 'Rubik';
 	font-size: 18px;
@@ -383,16 +354,59 @@ max-height: 50%;
 #sweet {
 	font-family: 'Rubik';
 	font-size: 18px;
+}*/
+.visual-link {
+    display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center; 
+     
+
 }
 
 
-
-.carousel img {
-	max-width: 350px;
-	display: block;
-	margin: auto;
+.visual-link img {
+	max-width: 400px;
+	display: flex;
+    margin: auto;
+    padding: 15px;
 }
 
+
+.second-banner {
+    display: flex;
+    justify-content: flex-end;
+	flex-direction: column;
+	background-image: url(../img/crusty.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;   
+}
+.giant {
+    display: flex;
+    font-family: 'Lora';
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: black;
+}
+                                    @media (min-width: 650px) {
+                                .second-banner {
+                                    display: flex;
+                            flex-direction: column;                           
+                                }
+                                .giant {
+                                    display: flex;
+                                }   
+                            }                  
+
+
+
+
+
+
+/*
 .product-card img {
 	max-width: 300px;
 	display: block;
@@ -403,7 +417,7 @@ max-height: 50%;
 	border: 1px solid black;
 	margin: 10px;
 	padding: 5px;
-}
+} */
 
 .galery img {
 	max-width: 400px;
@@ -411,7 +425,7 @@ max-height: 50%;
 	margin: auto;
 }
 
-.review img {
+/*.review img {
 	max-width: 400px;
 	display: block;
 	margin: auto;
