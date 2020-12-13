@@ -508,9 +508,17 @@ display: flex;
                                         align-self: center;
                                         justify-items: center;  
                                                                 }
-                                                            }                 
-/*.tough img {
-	max-width: 300px;
-	display: block;
-    margin: auto;    
-}
+                                                            }
+
+  
+
+
+    
+
+.block-contacts h2, h3, p {
+        display: flex;		
+		flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start; 
+}                                                    
+                                                            
