@@ -337,6 +337,7 @@ h3 {
 	padding: 15px;
 }
 
+
 .second-banner {
 	display: flex;
 	justify-content: flex-end;
@@ -517,4 +518,33 @@ h3 {
 		display: flex;
 		flex-direction: column;
 	}
+}
+
+/*КАРУСЕЛЬКА*/
+.carousel div {
+    display: flex;
+    justify-content: center;
+}
+.carousel img {
+    display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	max-height: 100%;
+    margin: auto;
+    padding: 5px;    
+}
+
+.car-button {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.clock {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
