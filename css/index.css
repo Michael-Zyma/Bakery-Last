@@ -308,22 +308,22 @@ h5 {
 }
 
 .rey-block {
-    display: flex;  
+	display: flex;
 	flex-direction: row;
 }
 
 .wheat-block {
-    display: flex;  
+	display: flex;
 	flex-direction: row;
 }
 
-.yeast-block{
-    display: flex;  
+.yeast-block {
+	display: flex;
 	flex-direction: row;
 }
 
-.sweet-block{
-    display: flex;  
+.sweet-block {
+	display: flex;
 	flex-direction: row;
 }
 
@@ -335,13 +335,11 @@ h5 {
 	margin: 10px;
 }
 
-.buttons{
-display: flex;
+.buttons {
+	display: flex;
 	justify-content: center;
-        }
+}
 
-
-    
 
 /*
 
@@ -364,6 +362,8 @@ display: flex;
 	font-family: 'Rubik';
 	font-size: 18px;
 }*/
+
+
 /*
 .product-card img {
 	max-width: 300px;
@@ -378,6 +378,7 @@ display: flex;
 } */
 
 
+/*
 .visual-link {
 	display: flex;
 	flex-direction: row;
@@ -390,8 +391,7 @@ display: flex;
 	display: flex;
 	margin: auto;
 	padding: 15px;
-}
-
+}*/
 
 .second-banner {
 	display: flex;
@@ -422,8 +422,6 @@ display: flex;
 		display: flex;
 	}
 }
-
-
 
 .galery-block div {
 	display: flex;
@@ -563,31 +561,24 @@ display: flex;
 	}
 }
 
+
 /*КАРУСЕЛЬКА*/
+
 .carousel div {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
+
 .carousel img {
-    display: flex;
+	display: flex;
 	flex-direction: row;
-	max-width: 100%;
-	max-height: 100%;
-    margin: auto;
-    padding: 5px;    
+	max-width: 370px;
+	margin: auto;
+	padding: 5px;
 }
-
-.car-button {
-    display: flex;
-    padding: 10px;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-
 
 .clock {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
 }
