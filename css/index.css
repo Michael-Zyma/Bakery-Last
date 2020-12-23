@@ -307,6 +307,14 @@ h5 {
 	}
 }
 
+#catalog {
+padding: 40px 0px 20px 0;
+}
+
+.shop-title {
+    padding: 40px 0px 30px 0;
+}
+
 .rey-block {
 	display: flex;
 	flex-direction: row;
