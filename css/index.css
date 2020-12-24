@@ -209,7 +209,8 @@ font-size: 20px;
 @media (min-width: 650px) {
 	.banner {
 		display: flex;
-		flex-direction: column;
+        flex-direction: column;
+        
 	}
 }
 
@@ -467,7 +468,8 @@ padding: 0px 0px 0px 100px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
 .visual-link img {
