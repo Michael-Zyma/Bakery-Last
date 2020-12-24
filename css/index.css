@@ -21,7 +21,7 @@ h6 {
 :root {
 	font-family: 'Neucha', cursive, 'Lora', serif, 'Rubik', sans-serif, 'Pacifico', cursive;
 	--text-color: rgb(197, 175, 147);
-	--link-color: blue;
+	--link-color: black;
 	--button-color: rgb(48, 48, 48);
 	font-size: 1.1rem;
 	line-height: 1.5;
@@ -31,7 +31,7 @@ h6 {
 body {
 	max-width: 1100px;
 	margin: auto;
-	background-image: url(../img/.jpg);
+	background-image: url(../img/kraft-paper-texture.png);
 }
 
 .top {
@@ -40,7 +40,7 @@ body {
 	align-items: center;
 	flex-direction: row;
 	position: relative;
-	background-color: white;
+	background-image: url(../img/kraft-paper-texture.png);
 }
 
 .top-phone {
@@ -126,7 +126,7 @@ h5 {
 }
 
 .menu a:hover {
-	color: rgb(197, 175, 147);
+	color: rgb(145, 88, 13);
 	text-decoration: underline;
 }
 
@@ -180,7 +180,13 @@ h5 {
 	left: 150px;
 	top: 70px;
 }
-
+.banner button a {    
+text-decoration: none;
+font-size: 20px;
+	font-family: 'Neucha';
+    font-weight: bold;
+    color: white;
+}
 .banner button {
 	display: flex;
 	position: relative;
@@ -191,8 +197,8 @@ h5 {
 	text-align: center;
 	font-size: 20px;
 	font-family: 'Neucha';
-	font-weight: bold;
-	color: white;
+    font-weight: bold;
+    color: white;
 }
 
 .banner button:hover {
@@ -313,6 +319,10 @@ padding: 40px 0px 20px 0;
 
 .shop-title {
     padding: 40px 0px 30px 0;
+}
+
+.shop-title  {
+padding: 40px 0px 30px 0;
 }
 
 .rey-block {
@@ -573,8 +583,8 @@ padding: 40px 0px 20px 0;
 /*КАРУСЕЛЬКА*/
 
 .carousel div {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: space-around;	
 }
 
 .carousel img {
@@ -583,6 +593,20 @@ padding: 40px 0px 20px 0;
 	max-width: 370px;
 	margin: auto;
 	padding: 5px;
+}
+
+
+.next, .prev {    
+    background-color: #6b6b6b;
+    text-align: center;
+	font-size: 20px;
+	font-family: 'Neucha';
+	font-weight: bold;
+    color: white;    
+}
+
+.next:hover, .prev:hover {
+	background-color: #FF8900;
 }
 
 .clock {
