@@ -375,7 +375,8 @@ padding: 40px 0px 20px 0;
 .product-card img {	
     max-width: 250px;
 	display: flex;
-	margin: auto;
+    margin: auto;
+    padding-top: 10px;
 }
 
 @media (max-width: 950px) {
@@ -546,13 +547,14 @@ padding: 0px 0px 0px 100px;
 	color: black;
 }
 
-@media (min-width: 650px) {
+@media (max-width: 650px) {
 	.second-banner {
 		display: flex;
 		flex-direction: column;
 	}
 	.giant {
-		display: flex;
+        display: flex;
+        font-size: 2em;
 	}
 }
 
@@ -696,9 +698,30 @@ padding: 0px 0px 0px 100px;
 	}
 }
 
+.email-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+.email-form label, .email-form button {
+    display: flex;
+     padding-right: 50px;
+}
+@media (max-width: 650px) {
+	.email-form {	
+		display: flex;
+        flex-direction: column;
+		align-self: start;
+		justify-self: start;
+    }
+}
+
 
 /*КАРУСЕЛЬКА*/
 
+
+
+/*
 .carousel div {
     display: flex;
     justify-content: space-around;	
@@ -725,7 +748,7 @@ padding: 0px 0px 0px 100px;
 .next:hover, .prev:hover {
     background-color: #FF8900;
     transition-duration: 1s;
-}
+}*/
 
 .clock {
 	display: flex;
