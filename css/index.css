@@ -55,6 +55,7 @@ body {
 	font-size: 16px;
 }
 
+
 h1 {
 	font-size: 3.5rem;
 	text-transform: uppercase;
@@ -77,6 +78,8 @@ h5 {
 }
 
 .down-heading {
+    display: flex;
+    justify-content: center;
 	font-size: 16px;
 	text-transform: uppercase;
 	text-decoration: bold;
@@ -298,7 +301,7 @@ font-size: 20px;
 }
 
 @media (max-width: 700px) {
-	.icon-block {
+	.icon-block  {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		align-self: start;
@@ -315,61 +318,102 @@ font-size: 20px;
 	}
 }
 
-.shop-block{
-    padding-bottom: 70px;
-}
+
+/*МАГАЗИН*/
+
+
+
+
+
 
 #catalog {
+    display: flex;
+	justify-content: center;
+    align-items: center;
 padding: 40px 0px 20px 0;
 }
 
 .shop-title {
+    display: flex;
+	justify-content: center;
+    align-items: center;
     padding: 40px 0px 30px 0;
 }
-
-.shop-title  {
-padding: 40px 0px 30px 0;
+.product-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
 }
 
 .rey-block {
-	display: flex;
+    display: flex;
+    justify-content: center;
 	flex-direction: row;
 }
-
 .wheat-block {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 
 }
 
 .yeast-block {
-	display: flex;
+    display: flex;
+    justify-content: center;
 	flex-direction: row;
 }
 
 .sweet-block {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 70px; 
+     
 }
 
-.product-card img {
+.product-card img {	
+    max-width: 250px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	max-width: 250px;
-	margin: 10px;
+	margin: auto;
 }
+
+@media (max-width: 950px) {
+	.rey-block, .wheat-block, .yeast-block, .sweet-block {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		align-self: start;
+		justify-self: start;
+	}
+}
+@media (max-width: 550px) {
+	.rey-block, .wheat-block, .yeast-block, .sweet-block {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-self: start;
+		justify-self: start;
+	}
+}
+@media (max-width: 400px) {
+	.rey-block, .wheat-block, .yeast-block, .sweet-block {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		align-self: start;
+		justify-self: start;
+	}
+}
+
 .buttons {
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 .product-card button:hover {
     background-color: #FF8900;
     transition-duration: 1s;
 }
 
-.product-card button {
-	display: flex;
-    justify-content: center;
+.product-card button {	
      background-color: #6b6b6b;
     text-align: center;
 	font-size: 20px;
@@ -378,8 +422,10 @@ padding: 40px 0px 30px 0;
     color: white;    
 }
 
+/*СЛАЙДЕР*/
+
 .slider-block {
-                background-image: url(../img/eklair-ready.jpg);
+        background-image: url(../img/eklair-ready.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -426,42 +472,14 @@ padding: 0px 0px 0px 100px;
     transition-duration: 1s;
 }
 
-/*
+	 @media (min-width: 650px) {
+	.slider-block, .slider-block h2, .slider-button, .slider-form, .slider-block p  {
+		display: flex;
+		flex-direction: column;
+	}
+	}
 
-#rye {
-	font-family: 'Rubik';
-	font-size: 18px;
-}
-
-#wheat {
-	font-family: 'Rubik';
-	font-size: 18px;
-}
-
-#yeast {
-	font-family: 'Rubik';
-	font-size: 18px;
-}
-
-#sweet {
-	font-family: 'Rubik';
-	font-size: 18px;
-}*/
-
-
-/*
-.product-card img {
-	max-width: 300px;
-	display: block;
-	margin: auto;
-}
-
-.product-card {
-	border: 1px solid black;
-	margin: 10px;
-	padding: 5px;
-} */
-
+/*VISUAL-LINK*/
 
 
 .visual-link {
@@ -478,6 +496,35 @@ padding: 0px 0px 0px 100px;
 	margin: auto;
 	padding: 15px;
 }
+.visual-link img:hover {
+    background-color: #6b6b6b;
+    transition-duration: 1s;
+}
+
+
+
+/*
+.visual-holder {
+    position:relative;   
+    max-width: 400px;
+    margin: auto;
+}
+
+
+.visual-block{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.7);
+    display:none;
+}
+.visual-holder:hover .visual-block{
+    display:block;
+    transition-duration: 1s;
+    transition-property: visual-holder;
+}*/
 
 .second-banner {
 	display: flex;
@@ -600,6 +647,8 @@ padding: 0px 0px 0px 100px;
 		justify-items: center;
 	}
 }
+
+/*КОНТАКТЫ*/
 
 #contact h2 {
 	display: flex;
